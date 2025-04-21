@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ford Mustang 1965 - 3D Model</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <style>
+      body {
+        margin: 0;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      model-viewer {
+        width: 90vw;
+        height: 90vh;
+      }
+    </style>
+  </head>
+  <body>
+    <model-viewer
+      src="ford_mustang_1965.glb"
+      alt="Ford Mustang 1965"
+      auto-rotate
+      camera-controls
+      shadow-intensity="1"
+      background-color="#111">
+    </model-viewer>
+  </body>
+</html>
